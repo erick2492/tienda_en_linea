@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Vinculamos las hojas de estilo -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Tienda deportiva online</title>
+<meta name="autor" content="Desarrollado por Erick Romero">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/examen.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!-- Vinculamos los documentos de JS -->
+<script src="js/bootstrap.js"></script>
+
+<!-- vinculamos las hojas de estilo -->
+<div class="container-fluid" id="contenedor_cabecera">
+  <div class="row">
+    <div class="col-3" id="logo"><img src="img/logo.png.png" class="img-fluid"></div>
+    <div class="col-9" id="cabecera">Tienda deportiva online</div> 
+</div>
+</div>
+<hr>
+
+
+<!-- aqui va el contenido central-->
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="btn-group" role="group" aria-label="Basic example">
+  <a href="index.html" class="btn btn-primary">Inicio</a>
+  
+</div>
+    </div>
+    <div class="col">
+      <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-primary">Nosotros</button>
+  
+</div>
+    </div>
+    <div class="col">
+      <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-primary">Contactenos</button>
+</div>
+    </div>
+  </div>
+</div>
+<div class="espacio"></div>
+
+
+<div class="container">
+  
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-10">
+	<form name="registro" method="POST" action="registro.php">
+
+
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="Identificacion">
+  <label for="floatingInput">Identificacion</label>
+</div>
+
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="Nombre">
+  <label for="floatingPassword">Nombre</label>
+</div>
+
+<div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" name="Correo">
+  <label for="floatingInput">Correo</label>
+</div>
+
+<div class="form-floating mb-3">
+  <input type="password" class="form-control" id="floatingPassword" name="Contraseña">
+  <label for="floatingPassword">Contraseña</label>
+</div>
+
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="Telefono">
+  <label for="floatingInput">Telefono</label>
+</div>
+
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="Provincia">
+  <label for="floatingPassword">Provincia</label>
+</div>
+
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="floatingInput" name="Canton">
+  <label for="floatingInput">Canton</label>
+</div>
+
+<div class="form-floating">
+  <input type="text" class="form-control" id="floatingInput" name="Distrito">
+  <label for="floatingPassword">Distrito</label>
+</div>
+
+<div class="espacio"></div>
+<div class="col-12">
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </div>
+  
+
+</form>
+	</div>
+	<div class="col-1"></div>
+  </div>
+</div>
+
+<!-- aqui va el contenido central-->
+
+<!-- pie de pagina-->
+<div class="container-fluid" id="piepagina">
+MI-EMPRESA.COM | Todos los Derechos Reservados 2021
+</div>
+
+</body>
+
+
+</html>

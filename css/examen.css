@@ -1,0 +1,43 @@
+
+
+
+#contenedor_cabecera{
+	background-color:orange;
+}
+
+
+#logo{
+	padding-top:20px;
+	
+}
+
+#cabecera{
+	font-size:72px;
+	color:blue;
+	text-align:center;
+	line-height:280px;
+	font-weight:bold;
+	
+}
+
+#piepagina{
+	background-color:#F3EC09 ;
+	color:black;
+	height:40px;
+	line-height:40px;
+	text-align:right;
+	padding-right:20px;
+	
+}
+
+.espacio{
+	height:30px;
+}
+
+#resumen{
+	color:#835A1D ;
+	font-size:15px;
+	font-weight:600;
+	
+	
+}
